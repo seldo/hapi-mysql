@@ -5,7 +5,7 @@ Dead-simple MySQL plugin for Hapi. Usage:
 
 Register plugin:
 
-<code>
+```javascript
 var server = Hapi.createServer('0.0.0.0', 8000);
 server.pack.require('hapi-mysql', Config.db, function(err) {
   if (err) {
@@ -13,11 +13,11 @@ server.pack.require('hapi-mysql', Config.db, function(err) {
     throw err;
   }
 });
-</code>
+```
 
 Use plugin:
 
-<code>
+```javascript
 request.server.plugins['hapi-mysql'].pool.getConnection(function(err, connection) {
 
   // Use the connection
@@ -33,4 +33,5 @@ request.server.plugins['hapi-mysql'].pool.getConnection(function(err, connection
 
   // And done with the connection.
   connection.release();
-</code>
+})
+```
