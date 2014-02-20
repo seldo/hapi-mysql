@@ -10,8 +10,6 @@ exports.register = function (plugin, options, next) {
 
   var pool = mysql.createPool(options);
 
-  console.log(pool)
-
   plugin.expose('pool', pool);
   next();
 
