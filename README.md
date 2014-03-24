@@ -1,7 +1,7 @@
 hapi-mysql
-==========
+Dead-simple MySQL plugin for Hapi.
 
-Dead-simple MySQL plugin for Hapi. Usage:
+##Usage:
 
 Register plugin:
 
