@@ -1,6 +1,6 @@
 {
   "name": "hapi-mysql",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "",
   "main": "index.js",
   "scripts": {
