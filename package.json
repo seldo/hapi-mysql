@@ -1,14 +1,22 @@
 {
   "name": "hapi-mysql",
   "version": "0.0.11",
-  "description": "",
+  "description": "Dead-simple MySQL plugin for Hapi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Laurie Voss <github@seldo.com>",
   "license": "ISC",
   "dependencies": {
-    "mysql": "~2.0.1"
-  }
+    "mysql": "~2.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seldo/hapi-mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seldo/hapi-mysql/issues"
+  },
+  "homepage": "https://github.com/seldo/hapi-mysql"
 }
