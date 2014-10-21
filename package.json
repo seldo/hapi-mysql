@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "mysql": "~2.0.1"
-  }
+  },
+  "keywords": ["testecosystem:mysystem","monkeypants","gorillashoes"]
 }
