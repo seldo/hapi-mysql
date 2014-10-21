@@ -1,6 +1,6 @@
 {
   "name": "hapi-mysql",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
   "dependencies": {
     "mysql": "~2.0.1"
   },
-  "keywords": ["testecosystem:mysystem","monkeypants","gorillashoes"]
+  "keywords": [
+    "testecosystem:mysystem",
+    "monkeypants",
+    "gorillashoes"
+  ]
 }
