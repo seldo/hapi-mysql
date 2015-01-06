@@ -1,16 +1,21 @@
 var mysql = require('mysql');
 
-exports.register = function (plugin, options, next) {
+var register = function (server, options, next) {
+    console.log('MySQL plugin registered');
 
-  console.log("mysql plugin registered")
+    if (!options.host) {
+        throw new Error('DB host not defined in config');
+    }
 
-  if(!options.host) {
-    throw new Error("DB host not defined in config")
-  }
+    var pool = mysql.createPool(options);
 
-  var pool = mysql.createPool(options);
+    server.expose('pool', pool);
 
-  plugin.expose('pool', pool);
-  next();
+    return next();
+};
 
-}
+register.attributes = {
+    pkg: require('./package.json')
+};
+
+module.exports = register;
