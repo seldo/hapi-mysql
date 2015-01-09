@@ -1,7 +1,7 @@
 hapi-mysql
 ==========
 
-Dead-simple MySQL plugin for Hapi. Usage:
+## Usage
 
 Register plugin:
 
@@ -24,7 +24,7 @@ request.server.plugins['hapi-mysql'].pool.getConnection(function(err, connection
   connection.query(
     'SELECT 1 FROM mytable',
     function(err, rows) {
-  
+
       if(err) {
         throw new Error(err)
       }
