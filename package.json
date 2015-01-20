@@ -1,12 +1,14 @@
 {
   "name": "hapi-mysql",
   "version": "0.0.34",
-  "description": "",
+  "description": "Dead-simple MySQL plugin for Hapi.",
+  "version": "0.0.11",
+  "repository": "https://github.com/seldo/hapi-mysql",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "seldo",
   "license": "ISC",
   "dependencies": {
     "mysql": "~2.0.1"
