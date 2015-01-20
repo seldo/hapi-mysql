@@ -1,6 +1,6 @@
 {
   "name": "hapi-mysql",
-  "version": "0.0.12",
+  "version": "0.0.43",
   "description": "Dead-simple MySQL plugin for Hapi.",
   "repository": "https://github.com/seldo/hapi-mysql",
   "main": "index.js",
