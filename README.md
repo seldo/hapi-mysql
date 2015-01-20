@@ -1,9 +1,8 @@
-hapi-mysql
-==========
+# hapi-mysql
 
-Dead-simple MySQL plugin for Hapi. Usage:
+## Usage:
 
-Register plugin:
+### Register plugin:
 
 ```javascript
 var server = Hapi.createServer('0.0.0.0', 8000);
@@ -15,7 +14,7 @@ server.pack.require('hapi-mysql', Config.db, function(err) {
 });
 ```
 
-Use plugin:
+### Use plugin:
 
 ```javascript
 request.server.plugins['hapi-mysql'].pool.getConnection(function(err, connection) {
