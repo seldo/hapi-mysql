@@ -1,12 +1,13 @@
 {
   "name": "hapi-mysql",
-  "version": "0.0.42",
+  "version": "0.0.44",
   "description": "A simple hapi plugin that provides a connection to a MySQL database",
+  "repository": "https://github.com/seldo/hapi-mysql",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "seldo",
   "license": "ISC",
   "dependencies": {
     "mysql": "~2.0.1"
