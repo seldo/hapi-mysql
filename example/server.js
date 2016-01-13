@@ -14,7 +14,15 @@ server.connection({port: 3000});
 server.register({
     register: require('../lib/index.js'),
     option: {
-        
+        configPlugin: {
+            connType: 'pool' //If undefined the plugin use a simple connection, not pool.
+        },
+        configConnection: {
+            host: 'localhost',
+            database: 'teste',
+            user: 'teste',
+            password: '96342292'
+        } 
     }
 }, (err) => {
     if (err) {
