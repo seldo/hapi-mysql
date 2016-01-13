@@ -7,6 +7,7 @@
     "url": "https://github.com/seldo/hapi-mysql/issues"
   },
   "dependencies": {
+    "hapi": "^12.1.0",
     "mysql": "^2.5.4"
   },
   "devDependencies": {},
@@ -17,7 +18,7 @@
     "plugin"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/seldo/hapi-mysql.git"
