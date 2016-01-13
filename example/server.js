@@ -12,7 +12,7 @@ server.connection({port: 3000});
 
 
 server.register({
-    require: require('./lib/index.js'),
+    register: require('../lib/index.js'),
     option: {
         
     }
