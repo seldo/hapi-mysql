@@ -1,3 +1,3 @@
 #Hapi MySQL
-## Plugin for hapi.js [hapi]: <http://hapijs.com/>  "hapi" using the mysql package
+###Plugin for [hapi](http://hapijs.com/) using the [mysql](https://github.com/felixge/node-mysql) package.
 
