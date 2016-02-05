@@ -1,6 +1,6 @@
 {
   "name": "hapi-mysql",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A simple hapi plugin that provides a connection to a MySQL database",
   "author": "Laurie Voss <laurie@npmjs.com>",
   "bugs": {
